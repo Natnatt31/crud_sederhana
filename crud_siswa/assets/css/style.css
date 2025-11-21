@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 1200px;  
+    width: 100%;  /* Tambahan: Gunakan 100% lebar jika layar lebih kecil dari 1200px */
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow-x: auto;  
+}
+h1, h2 {
+    color: #333;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    min-width: 800px;  
+}
+th, td {
+    padding: 12px;  
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+.btn {
+    padding: 8px 12px;  
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 2px;
+    font-size: 14px;  
+}
+.btn-primary { background-color: #007bff; color: white; }
+.btn-warning { background-color: #ffc107; color: black; }
+.btn-danger { background-color: #dc3545; color: white; }
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;  
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Tambahan: Media query untuk layar kecil (mobile) agar tetap responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    table {
+        font-size: 12px;
+    }
+    th, td {
+        padding: 8px;
+    }
+}
